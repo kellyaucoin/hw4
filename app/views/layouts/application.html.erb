@@ -12,7 +12,7 @@
   <body>
     <p>
       <% if @current_user %>
-        <%= @current_user["username"] %>
+        Hello, <%= @current_user["username"] %> |
         <a href="/logout">Logout</a>
       <% else %>
         <a href="/login">Login</a> | <a href="/users/new">Signup</a>
