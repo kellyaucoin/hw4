@@ -13,5 +13,6 @@
 <% end %>
 
 
-<% else flash["notice"] = "You must be logged in to create a new place."
-end %>
+<% else %>
+  You must first <a href="/login">login</a> to create a new place.
+<% end %>

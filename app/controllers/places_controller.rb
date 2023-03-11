@@ -11,7 +11,6 @@ class PlacesController < ApplicationController
     if @current_user
       @posts = Post.where({ "place_id" => @place["id"], "user_id" => @current_user["id"]})
     end
-
   end
 
 
