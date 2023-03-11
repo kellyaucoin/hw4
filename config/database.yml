@@ -21,7 +21,6 @@ test:
   database: db/test.sqlite3
 
 production:
-production:
   <<: *default
   adapter: postgresql
   database: my-travel-journal_production
